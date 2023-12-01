@@ -5,3 +5,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    text-align: center;
+    font-family: sans-serif;
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+    margin: 30px 0;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 60px black, -20px -20px -60px gray;
+}
+input[type="text"]{
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+}
